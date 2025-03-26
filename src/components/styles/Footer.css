@@ -1,0 +1,40 @@
+footer {
+  height: 60px;
+  background-color: var(--secondary-background);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.footer-links {
+  display: flex;
+  font-size: 40px;
+  margin-left: 8px;
+  gap: 16px;
+}
+.footer-links a:link {
+  color: var(--secondary-color);
+}
+.footer-links a:visited {
+  color: var(--secondary-color);
+}
+.footer-links a:hover {
+  color: var(--primary-color);
+}
+.footer-links a:active {
+  color: var(--primary-color);
+}
+.footer-info {
+  display: flex;
+  flex-direction: column;
+  text-align: end;
+  padding-right: 8px;
+  font-style: italic;
+  color: var(--secondary-color);
+}
+.footer-info p {
+  margin: 0;
+}
