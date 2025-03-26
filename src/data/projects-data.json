@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Personal Porfolio",
+    "description": "A simple website, created for the purpose of showcasing my skills in web development and providing means for potential employers or clients to contact myself. The website is deployed via Netlify.",
+    "stack": "HTML, CSS",
+    "link": "https://tanermaddocks.netlify.app/",
+    "gitLink": "https://github.com/tanermaddocks/PersonalPortfolio"
+  },
+  {
+    "name": "RuneQuest",
+    "description": "RuneQuest is an interactive app designed to help users learn and master the art of runes. It combines engaging lessons, practice exercises, and rune divination readings. Developed in conjuction with Shane Miller.",
+    "stack": "HTML, CSS, NodeJS, ReactJS, ExpressJS, Vite, MongoDB, Mongoose",
+    "link": "https://rune-quest.onrender.com/",
+    "gitLink": "https://github.com/tanermaddocks/RuneQuest"
+  },
+  {
+    "name": "template",
+    "description": "",
+    "stack": "",
+    "link": "",
+    "gitLink": "https://github.com/"
+  }
+]
