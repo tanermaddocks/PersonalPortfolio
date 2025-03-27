@@ -35,16 +35,16 @@ article {
 #stack-bold {
   font-weight: bold;
 }
-main a {
+.projects a {
   text-decoration: none;
 }
-main a:link {
+.projects a:link {
   color: var(--primary-font);
 }
-main a:visited {
+.projects a:visited {
   color: var(--primary-font);
 }
-main a:active {
+.projects a:active {
   color: var(--primary-font);
 }
 .card-bottom i {
