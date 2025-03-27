@@ -12,7 +12,7 @@ export default function Contact() {
 
     <>
       <Header />
-      <main>
+      <main className="contact">
         <div className="link-block">
           <article className="get-in-touch">
             <h3>How to get in touch?</h3>

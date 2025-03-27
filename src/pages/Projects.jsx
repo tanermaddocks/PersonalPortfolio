@@ -18,7 +18,7 @@ export default function Projects() {
 
     <>
       <Header />
-      <main>
+      <main className="projects">
         <div className="project-cards">
           <ProjectCard order="1" project={personalPortfolio} />
           <ProjectCard order="2" project={runeQuest} />
