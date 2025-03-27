@@ -20,7 +20,7 @@ export default function Header() {
               <i className="fa-solid fa-user"></i>
             </div>
           </div>
-          <label>About</label>
+          <span>About</span>
         </a>
         {/* Icon that links to projects.html, the projects page */}
         <a href="/pages/projects.html" className="projects-link">
@@ -29,7 +29,7 @@ export default function Header() {
               <i className="fa-solid fa-code"></i>
             </div>
           </div>
-          <label>Projects</label>
+          <span>Projects</span>
         </a>
         {/*Icon that links to contact.html, the contact page*/}
         <a href="/pages/contact.html" className="contact-link">
@@ -38,7 +38,7 @@ export default function Header() {
               <i className="fa-solid fa-phone"></i>
             </div>
           </div>
-          <label>Contact</label>
+          <span>Contact</span>
         </a>
       </nav>
     </header>
