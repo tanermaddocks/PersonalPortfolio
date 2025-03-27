@@ -2,7 +2,7 @@
   "porfolio": {
     "name": "Personal Porfolio",
     "description": "A simple website, created for the purpose of showcasing my skills in web development and providing means for potential employers or clients to contact myself. The website is deployed via Netlify.",
-    "stack": "HTML, CSS",
+    "stack": "HTML, CSS, ReactJS, Vite",
     "link": "https://tanermaddocks.netlify.app/",
     "gitLink": "https://github.com/tanermaddocks/PersonalPortfolio"
   },

@@ -18,7 +18,7 @@ export default function ProjectCard({ order, project }) {
       <div className="card-bottom">
         <p className="proj-stck">
           <span id="stack-bold">Stack:</span>
-          <span>{projectStack}</span>
+          <span> {projectStack} </span>
         </p>
         <a className="git-link" href={gitLink} target="_blank">
           <i className="fa-brands fa-github"></i>
