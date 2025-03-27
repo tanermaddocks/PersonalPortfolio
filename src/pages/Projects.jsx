@@ -1,20 +1,18 @@
+// Components
 import Header from "../components/Header"
 import Footer from "../components/Footer"
 import ProjectCard from "../components/ProjectCard";
+// Assets
+import projectData from "../assets/projects-data.json"
+// Styles
+import "./styles/Projects.css"
 
-import projectData from "../data/projects-data.json"
 
 export default function Projects() {
 
-  function renderCards(projects) {
-    let orderNum = 1
-    projects.forEach(project => {
-      orderNum++
-      if (project.name != "template") {
-        <ProjectCard order={`${orderNum}`} project={project} />
-      }
-    });
-  };
+  // Project Data
+  const personalPortfolio = projectData.porfolio
+  const runeQuest = projectData.runequest
 
   return (
 
@@ -22,7 +20,8 @@ export default function Projects() {
       <Header />
       <main>
         <div className="project-cards">
-          {() => renderCards(projectData)}
+          <ProjectCard order="1" project={personalPortfolio} />
+          <ProjectCard order="2" project={runeQuest} />
         </div>
       </main>
       <Footer />
