@@ -14,7 +14,7 @@ export default function Header() {
       {/* Nav panel, links to other pages */}
       <nav>
         {/* Icon that links to index.html, AKA home and about page */}
-        <a href="#" className="about-link">
+        <a href="/" className="about-link">
           <div className="link-frame">
             <div className="link-icon">
               <i className="fa-solid fa-user"></i>
@@ -23,7 +23,7 @@ export default function Header() {
           <span>About</span>
         </a>
         {/* Icon that links to projects.html, the projects page */}
-        <a href="/pages/projects.html" className="projects-link">
+        <a href="/?page=projects" className="projects-link">
           <div className="link-frame">
             <div className="link-icon">
               <i className="fa-solid fa-code"></i>
@@ -32,7 +32,7 @@ export default function Header() {
           <span>Projects</span>
         </a>
         {/*Icon that links to contact.html, the contact page*/}
-        <a href="/pages/contact.html" className="contact-link">
+        <a href="/?page=contact" className="contact-link">
           <div className="link-frame">
             <div className="link-icon">
               <i className="fa-solid fa-phone"></i>
