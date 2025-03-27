@@ -31,27 +31,23 @@ export default function About() {
         <article className="about-skills">
           <div className="languages">
             <h3>Languages</h3>
-            <p>In progress</p>
+            <p>Python, JavaScript, NodeJS</p>
           </div>
           <div className="databases">
             <h3>Databases</h3>
-            <p>In progress</p>
+            <p>PostgreSQL, MongoDB</p>
           </div>
           <div className="frontend">
             <h3>Frontend</h3>
-            <p>HTML, CSS</p>
-          </div>
-          <div className="otherskills">
-            <h3>Other Skills</h3>
-            <p>Git</p>
+            <p>HTML, CSS, ReactJS</p>
           </div>
           <div className="backend">
             <h3>Backend</h3>
-            <p>In progress</p>
+            <p>Flask, Mongoose, ExpressJS</p>
           </div>
           <div className="education">
             <h3>Education</h3>
-            <p>In progress</p>
+            <p>Diploma of Web Development - Coder Academy</p>
           </div>
         </article>
       </main>

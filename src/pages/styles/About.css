@@ -26,7 +26,6 @@ main.about {
   background-color: var(--primary-color);
   margin: 20px;
   border-radius: var(--base-radius);
-  padding: 8px;
   font-size: 1.2rem;
 }
 
@@ -42,38 +41,48 @@ main.about {
 .about-skills {
   width: fit-content;
   display: grid;
+  padding: 16px;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-rows: repeat(3, auto);
+  column-gap: 8px;
 }
 
-/* Tablet screen size up to 768px */
+.about-skills .education {
+  grid-column: 1 / span 2;
+}
+
+/* Tablet screen size up to 996px */
 @media (min-width:576px) {
+  .about {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+  }
+  
   .about-img {
     margin-top: 40px;
   }
 
   .about-img img {
-    width: 500px;
+    width: 340px; 
   }
 
   .about article {
     font-size: 1.4rem;
-    max-width: 100%;
   }
 
   .about-skills {
     max-width: 360px;
+    grid-row: 1;
+    grid-column: 2 ;
+  }
+
+  .about-me {
+    max-width: 100%;
+    grid-column: 1 / span 2;
   }
 }
 
-/* Tablet screen size up to 992px */
-@media (min-width:768px) {
-  .about {
-    flex-direction: row;
-    align-items: flex-start;
-    margin-bottom: 40px;
-  }
-}
 
 /* Desktop screen size from 992px */
 @media (min-width:992px) {
@@ -83,6 +92,13 @@ main.about {
 
   .about article {
     font-size: 1.5rem;
-    max-width: 600px;
+  }
+
+  .about-me {
+    max-width: 876px;
+  }
+
+  .about-skills {
+    max-width: 400px;
   }
 }
