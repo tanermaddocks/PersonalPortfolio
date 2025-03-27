@@ -1,9 +1,7 @@
 /* About.css determines the appearance of the main section of the About/Homepage */
 main {
-  display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
 }
 
 .about-img {
@@ -88,7 +86,7 @@ main {
 /* Desktop screen size from 992px */
 @media (min-width:992px) {
   .about-img img {
-    width: 600px;
+    width: 400px;
   }
 
   .about-info article {
