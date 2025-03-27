@@ -1,0 +1,136 @@
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+article {
+  background-color: var(--primary-color);
+  border-radius: var(--base-radius);
+  padding: 8px;
+  margin: 20px;
+  font-size: 1.2rem;
+  max-width: 440px;
+}
+.get-in-touch h3 {
+  margin: 0;
+  margin-top: 8px;
+}
+.con-link {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 28px;
+  margin-bottom: 8px;
+  gap: 24px;
+  padding: 16px;
+  max-width: 420px;
+}
+.con-link a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+.con-link a:link {
+  color: var(--primary-font);
+}
+.con-link a:visited{
+  color: var(--primary-font);
+}
+.con-link a:active{
+  color: var(--primary-font);
+}
+.con-link a i {
+  font-size: 48px;
+  margin-bottom: 4px;
+}
+.form-block {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.con-form {
+  width: 100%;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.form-q {
+  display: flex;
+  flex-direction: column;
+}
+.form-q input {
+  height: 28px;
+  padding: 4px;
+  font-size: 1rem;
+  border-radius: var(--base-radius);
+  background-color: var(--secondary-color);
+}
+.form-q textarea {
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 4px;
+  border: 2px solid var(--primary-font);
+  border-radius: var(--base-radius);
+  background-color: var(--secondary-color);
+}
+.reason-form input {
+  min-height: 28px;
+  height: fit-content;
+  resize: vertical;
+}
+#sub-btn {
+  width: 88px;
+  height: 40px;
+  font-size: 1.1rem;
+  border-radius: var(--base-radius);
+  color: var(--secondary-color);
+  background-color: var(--primary-font);
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (min-width:576px) {
+  article {
+      font-size: 1.4rem;
+      min-width: 0;
+      max-width: 580px;
+  }
+  .con-link {
+      max-width: 540px;
+      margin-left: 40px;
+      margin-right: 40px;
+  }
+  .con-link a i {
+      font-size: 64px;
+  }
+  #sub-btn {
+      width: 104px;
+      height: 48px;
+      font-size: 1.3rem;
+  }
+}
+@keyframes wobble {
+  0% {rotate: 0deg}
+  25% {rotate: 8deg}
+  50% {rotate: 0deg}
+  75% {rotate: -8deg;}
+  100% {rotate: 0deg;}
+}
+@media (min-width:992px) {
+  article {
+      font-size: 1.6rem;
+  }
+  .con-link a i {
+      font-size: 76px;
+      transition: scale 0.3s;
+  }
+  .con-link a i:hover {
+      scale: 1.1;
+      animation-name: wobble;
+      animation-duration: 0.3s;
+  }
+}
