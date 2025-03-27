@@ -6,7 +6,6 @@ main {
 .project-cards {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: repeat(6, 1fr);
 }
 article {
   background-color: var(--primary-color);
@@ -69,7 +68,6 @@ main a:active {
 @media (min-width:768px) {
   .project-cards {
       grid-template-columns: 1fr 1fr;
-      grid-template-rows: 1fr 1fr 1fr;
   }
   article {
       max-width: 380px;
