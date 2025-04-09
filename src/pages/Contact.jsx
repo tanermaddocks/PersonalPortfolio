@@ -16,7 +16,10 @@ export default function Contact() {
         <div className="link-block">
           <article className="get-in-touch">
             <h3>How to get in touch?</h3>
-            <p>Feel free to contact me by using any of the links below, or by filling out my handy contact form!</p>
+            <p>
+              Feel free to contact me by using any of the links below,
+              or by filling out my handy contact form!
+            </p>
           </article>
           <article className="con-link">
             <ContactLink
@@ -25,7 +28,7 @@ export default function Contact() {
               icon="fa-brands fa-github"
             />
             <ContactLink
-              link="https://www.linkedin.com/in/taner-maddocks-b5a884357/"
+              link="www.linkedin.com/in/tanermaddocks"
               label="LinkedIn"
               icon="fa-brands fa-linkedin-in"
             />
