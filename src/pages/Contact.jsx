@@ -17,21 +17,10 @@ export default function Contact() {
           <article className="get-in-touch">
             <h3>How to get in touch?</h3>
             <p>
-              Feel free to contact me by using any of the links below,
-              or by filling out my handy contact form!
+              Feel free to contact me via linkedIn,
+              or by filling out my contact form.
+              I'm always open to new projects and opportunites!
             </p>
-          </article>
-          <article className="con-link">
-            <ContactLink
-              link="https://github.com/tanermaddocks"
-              label="Github"
-              icon="fa-brands fa-github"
-            />
-            <ContactLink
-              link="www.linkedin.com/in/tanermaddocks"
-              label="LinkedIn"
-              icon="fa-brands fa-linkedin-in"
-            />
           </article>
         </div>
         <div className="form-block">

@@ -15,7 +15,7 @@ export default function Footer() {
       </div>
       <div className="footer-info">
         <p>Author: Taner Maddocks</p>
-        <p>Last updated: March 2025</p>
+        <p>Last updated: April 2025</p>
       </div>
     </footer>
 
