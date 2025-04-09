@@ -16,7 +16,7 @@ export default function ContactForm() {
       </div>
       <div className="form-q reason-form">
         <label htmlFor="reason">Reason:</label>
-        <textarea id="reason" rows="6"></textarea>
+        <textarea type="text" name="user-reason" id="reason" rows="6"></textarea>
       </div>
       <input type="submit" value="Submit" id="sub-btn"></input>
     </form>

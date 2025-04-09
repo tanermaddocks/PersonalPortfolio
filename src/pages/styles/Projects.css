@@ -7,12 +7,10 @@ main.projects {
   grid-template-columns: 1fr;
 }
 
-article {
-  background-color: var(--primary-color);
+.projects article {
   min-width: 320px;
   max-width: 360px;
   margin: 16px;
-  border-radius: var(--base-radius);
   font-size: 1.2rem;
   display: flex;
   flex-direction: column;

@@ -23,9 +23,7 @@ main.about {
 
 .about article {
   min-width: 300px;
-  background-color: var(--primary-color);
   margin: 20px;
-  border-radius: var(--base-radius);
   font-size: 1.2rem;
 }
 
