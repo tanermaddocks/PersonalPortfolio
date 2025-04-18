@@ -3,6 +3,7 @@ header {
   display: flex;
   flex-direction: column;
   width: 100vw;
+  padding-top: 20px;
   position: fixed;
   top: 0;
   left: 0;

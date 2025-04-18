@@ -8,7 +8,7 @@
 main {
   display: flex;
   align-items: center;
-  padding-top: 200px;
+  padding-top: 220px;
   padding-bottom: 60px;
 }
 
@@ -16,7 +16,7 @@ article {
   background-color: var(--secondary-background);
   border: 2px solid black;
   border-radius: var(--base-radius);
-  padding: 8px;
+  padding: 16px;
 }
 
 /* Tablet screen size 576px to 992px */
@@ -28,6 +28,7 @@ article {
     justify-content: space-between;
     align-items: center;
     height: 180px;
+    padding-top: 10px;
   }
 
   /* Nav Changes */
@@ -47,7 +48,7 @@ article {
 
   /* Main Changes */
   main {
-    padding-top: 180px;
+    padding-top: 190px;
     padding-bottom: 80px;
   }
 
@@ -72,6 +73,7 @@ article {
     align-items: flex-start;
     height: 84vh;
     width: 300px;
+    padding-top: 0;
     border-radius: 0;
     border-top-right-radius: var(--base-radius);
   }

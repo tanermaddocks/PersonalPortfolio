@@ -11,7 +11,7 @@ export default function ProjectCard({ order, project }) {
     <article className={"project-card-" + order}>
       <div className="card-top">
         <a className="project-heading" href={projectLink} target="_blank">
-          <h3>{projectName}</h3>
+          <h2>{projectName}</h2>
         </a>
         <p className="proj-desc">{projectDescription}</p>
       </div>

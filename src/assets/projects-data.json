@@ -8,7 +8,7 @@
   },
   "runequest": {
     "name": "RuneQuest",
-    "description": "RuneQuest is an interactive app designed to help users learn and master the art of runes. It combines engaging lessons, practice exercises, and rune divination readings. Developed in conjuction with Shane Miller.",
+    "description": "RuneQuest is an interactive app designed to help users learn and master the art of runes. It combines engaging lessons, practice exercises, and rune divination readings.",
     "stack": "HTML, CSS, NodeJS, ReactJS, ExpressJS, Vite, MongoDB, Mongoose",
     "link": "https://rune-quest.onrender.com/",
     "gitLink": "https://github.com/tanermaddocks/RuneQuest"

@@ -6,7 +6,7 @@ export default function Footer() {
     <footer>
       {/* All elements of footer remain consistent on all pages */}
       <div className="footer-links">
-        <a href="https://linkedin.com/tanermaddocks" target="_blank">
+        <a href="https://linkedin.com/in/tanermaddocks" target="_blank">
           <i className="fa-brands fa-linkedin-in"></i>
         </a>
         <a href="https://github.com/tanermaddocks" target="_blank">

@@ -4,13 +4,13 @@ main.projects {
 
 .project-cards {
   display: grid;
+  padding: 16px;
   grid-template-columns: 1fr;
 }
 
 .projects article {
   min-width: 320px;
   max-width: 360px;
-  margin: 16px;
   font-size: 1.2rem;
   display: flex;
   flex-direction: column;
@@ -21,9 +21,13 @@ main.projects {
   margin: 8px;
 }
 
-.project-heading h3 {
+.project-heading h2 {
   margin: 0;
-  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.proj-desc {
+  margin: 0;
 }
 
 .card-bottom {
@@ -59,8 +63,6 @@ main.projects {
 
 .card-bottom i {
   font-size: 48px;
-  margin: 8px;
-  margin-left: 8px;
 }
 
 @media (min-width:576px) {
@@ -77,6 +79,7 @@ main.projects {
 @media (min-width:768px) {
   .project-cards {
     grid-template-columns: 1fr 1fr;
+    gap: 16px;;
   }
 
   article {
