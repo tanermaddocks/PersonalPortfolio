@@ -1,0 +1,26 @@
+:root {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  
+
+  --primary-background: #003566;
+  --secondary-background: #001D3D;
+  --primary-color: #181d2c;
+  --secondary-color: #f7d053;
+  --tertiary-color: #0068c8;
+  --primary-font: #ffffffee;
+  --secondary-font: #ffffff;
+  --base-radius: 8px;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  color: var(--primary-font);
+  background-color: var(--primary-background);
+}

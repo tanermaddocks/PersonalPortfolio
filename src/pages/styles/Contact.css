@@ -1,0 +1,90 @@
+main.contact {
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contact article {
+  margin: 20px;
+  font-size: 1.2rem;
+  max-width: 440px;
+}
+
+.get-in-touch h3 {
+  margin: 0;
+  margin-top: 8px;
+}
+
+.form-block {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.con-form {
+  width: 100%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.form-q {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-q input {
+  height: 28px;
+  padding: 4px;
+  font-size: 1rem;
+  border-radius: var(--base-radius);
+  background-color: var(--primary-font);
+}
+
+.form-q textarea {
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 4px;
+  border: 2px solid var(--primary-font);
+  border-radius: var(--base-radius);
+  background-color: var(--primary-font);
+}
+
+.reason-form input {
+  min-height: 28px;
+  height: fit-content;
+  resize: vertical;
+}
+
+#sub-btn {
+  width: 88px;
+  height: 40px;
+  font-size: 1.1rem;
+  border-radius: var(--base-radius);
+  color: var(--primary-font);
+  background-color: var(--primary-background);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width:576px) {
+  article {
+    font-size: 1.4rem;
+    min-width: 0;
+    max-width: 580px;
+  }
+
+  #sub-btn {
+    width: 104px;
+    height: 48px;
+    font-size: 1.3rem;
+  }
+}
+
+@media (min-width:992px) {
+  article {
+    font-size: 1.6rem;
+  }
+}

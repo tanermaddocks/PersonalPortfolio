@@ -1,0 +1,47 @@
+import "./styles/Header.css";
+
+export default function Header() {
+  return (
+
+    <header>
+      <section className="title-block">
+        {/* Title and subtitle, will remain constant on all pages */}
+        <div className="title-text">
+          <h1>Taner Maddocks</h1>
+          <h3>Professional Portfolio</h3>
+        </div>
+      </section>
+      {/* Nav panel, links to other pages */}
+      <nav>
+        {/* Icon that links to index.html, AKA home and about page */}
+        <a href="/" className="about-link">
+          <div className="link-frame">
+            <div className="link-icon">
+              <i className="fa-solid fa-user"></i>
+            </div>
+          </div>
+          <span>About</span>
+        </a>
+        {/* Icon that links to projects.html, the projects page */}
+        <a href="/?page=projects" className="projects-link">
+          <div className="link-frame">
+            <div className="link-icon">
+              <i className="fa-solid fa-code"></i>
+            </div>
+          </div>
+          <span>Projects</span>
+        </a>
+        {/*Icon that links to contact.html, the contact page*/}
+        <a href="/?page=contact" className="contact-link">
+          <div className="link-frame">
+            <div className="link-icon">
+              <i className="fa-solid fa-phone"></i>
+            </div>
+          </div>
+          <span>Contact</span>
+        </a>
+      </nav>
+    </header>
+
+  );
+};

@@ -1,0 +1,104 @@
+/* About.css determines the appearance of the main section of the About/Homepage */
+main.about {
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about-img {
+  background-color: var(--primary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  height: fit-content;
+  padding: 8px;
+  border-radius: var(--base-radius);
+  margin: 20px;
+}
+
+.about-img img {
+  width: 320px;
+  border: 2px solid black;
+}
+
+.about article {
+  min-width: 300px;
+  margin: 20px;
+  font-size: 1.2rem;
+}
+
+.about article h3 {
+  margin-top: 4px;
+  margin-bottom: 0;
+}
+
+.about-me p {
+  margin-right: 8px;
+}
+
+.about-skills {
+  width: fit-content;
+  display: grid;
+  padding: 16px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(3, auto);
+  column-gap: 8px;
+}
+
+.about-skills .education {
+  grid-column: 1 / span 2;
+}
+
+/* Tablet screen size up to 996px */
+@media (min-width:768px) {
+  .about {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    justify-items: center;
+    align-items: center;
+  }
+  
+  .about-img {
+    margin-top: 40px;
+  }
+
+  .about-img img {
+    width: 300px; 
+  }
+
+  .about article {
+    font-size: 1.4rem;
+  }
+
+  .about-skills {
+    max-width: 360px;
+    grid-row: 1;
+    grid-column: 2 ;
+  }
+
+  .about-me {
+    max-width: 100%;
+    grid-column: 1 / span 2;
+  }
+}
+
+
+/* Desktop screen size from 992px */
+@media (min-width:1200px) {
+  .about-img img {
+    width: 400px;
+  }
+
+  .about article {
+    font-size: 1.5rem;
+  }
+
+  .about-me {
+    max-width: 876px;
+  }
+
+  .about-skills {
+    max-width: 400px;
+  }
+}
